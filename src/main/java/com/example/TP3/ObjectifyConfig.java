@@ -30,7 +30,7 @@ public class ObjectifyConfig {
     }
 
     @WebListener
-    public class ObjectifyListener implements ServletContextListener {
+    public static class ObjectifyListener implements ServletContextListener {
 
         @Override
         public void contextInitialized(ServletContextEvent sce) {

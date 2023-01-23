@@ -20,4 +20,8 @@ public class EmployerManager {
         //return employers.sort((e1, e2) -> e1.getNom().compareTo(e2.getNom()));
         return employers;
     }
+
+    public void addEmploye(Employe employe) {
+        employers.add(employe);
+    }
 }
